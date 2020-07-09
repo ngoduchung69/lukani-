@@ -6,6 +6,8 @@ import LukaniDetail from "./components/lukani-detail";
 import FeaturedProducts from "./components/feature-products";
 import WhatOurCustomerSays from "./components/what-our-customer-says";
 import EmailForDiscount from "./components/get-off-your-next-order";
+import Footer from "./components/footer";
+import OurLastestPost from "./components/our-lastest-post";
 
 function App() {
   return (
@@ -15,13 +17,14 @@ function App() {
       <LukaniDetail />
       <FeaturedProducts />
       <WhatOurCustomerSays />
+      <OurLastestPost />
       <EmailForDiscount />
+      <Footer />
     </Wrapper>
   );
 }
 
 const Wrapper = styled.div`
-  height: 5000px;
   position: relative;
 `;
 
